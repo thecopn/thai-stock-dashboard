@@ -1,9 +1,9 @@
 [
   {
     "symbol": "ADVANC",
-    "date": "2026-05-06",
+    "date": "2026-05-07",
     "price": 348.0,
-    "change": 2.35,
+    "change": 0.0,
     "fundamental": 84,
     "technical": 40,
     "valuation": 45,
@@ -11,13 +11,13 @@
     "total": 61,
     "keyPositive": "ARPU และ 5G โต",
     "keyNegative": "การแข่งขันราคา",
-    "lastUpdatedAt": "2026-05-07T03:22:07.682867+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:06.505865+00:00"
   },
   {
     "symbol": "AOT",
-    "date": "2026-05-06",
+    "date": "2026-05-07",
     "price": 53.25,
-    "change": 3.9,
+    "change": 0.0,
     "fundamental": 65,
     "technical": 82,
     "valuation": 53,
@@ -25,39 +25,39 @@
     "total": 65,
     "keyPositive": "นักท่องเที่ยวฟื้นตัว",
     "keyNegative": "Valuation ยังสูง",
-    "lastUpdatedAt": "2026-05-07T03:22:07.867929+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:06.876113+00:00"
   },
   {
     "symbol": "BBL",
-    "date": "2026-05-06",
-    "price": 163.5,
-    "change": 1.24,
+    "date": "2026-05-07",
+    "price": 164.0,
+    "change": 0.31,
     "fundamental": 80,
-    "technical": 46,
+    "technical": 64,
     "valuation": 74,
     "impact": 73,
-    "total": 69,
+    "total": 74,
     "keyPositive": "ฐานเงินทุนแข็งแรง",
     "keyNegative": "สินเชื่อโตช้า",
-    "lastUpdatedAt": "2026-05-07T03:22:08.059948+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:07.245517+00:00"
   },
   {
     "symbol": "BDMS",
-    "date": "2026-05-06",
-    "price": 18.399999618530273,
-    "change": -0.54,
+    "date": "2026-05-07",
+    "price": 18.700000762939453,
+    "change": 1.63,
     "fundamental": 65,
-    "technical": 16,
+    "technical": 40,
     "valuation": 38,
     "impact": 76,
-    "total": 49,
+    "total": 55,
     "keyPositive": "Medical tourism",
     "keyNegative": "ราคาไม่ถูก",
-    "lastUpdatedAt": "2026-05-07T03:22:08.272339+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:07.655686+00:00"
   },
   {
     "symbol": "BH",
-    "date": "2026-05-06",
+    "date": "2026-05-07",
     "price": 179.0,
     "change": 0.0,
     "fundamental": 61,
@@ -67,27 +67,27 @@
     "total": 69,
     "keyPositive": "ผู้ป่วยต่างชาติฟื้น",
     "keyNegative": "ความคาดหวังสูง",
-    "lastUpdatedAt": "2026-05-07T03:22:08.465120+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:08.015051+00:00"
   },
   {
     "symbol": "CPALL",
-    "date": "2026-05-06",
-    "price": 44.0,
-    "change": 1.73,
+    "date": "2026-05-07",
+    "price": 44.5,
+    "change": 1.14,
     "fundamental": 82,
-    "technical": 16,
+    "technical": 22,
     "valuation": 57,
     "impact": 50,
-    "total": 56,
+    "total": 57,
     "keyPositive": "กำลังซื้อในประเทศฟื้น",
     "keyNegative": "ต้นทุนค่าแรงสูงขึ้น",
-    "lastUpdatedAt": "2026-05-07T03:22:08.670816+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:08.360442+00:00"
   },
   {
     "symbol": "CPF",
-    "date": "2026-05-06",
+    "date": "2026-05-07",
     "price": 19.600000381469727,
-    "change": 2.08,
+    "change": 0.0,
     "fundamental": 69,
     "technical": 22,
     "valuation": 43,
@@ -95,13 +95,13 @@
     "total": 51,
     "keyPositive": "ต้นทุนอาหารสัตว์ผ่อนคลาย",
     "keyNegative": "ราคาสินค้าเกษตรผันผวน",
-    "lastUpdatedAt": "2026-05-07T03:22:08.857189+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:08.753847+00:00"
   },
   {
     "symbol": "CPN",
-    "date": "2026-05-06",
-    "price": 63.5,
-    "change": 2.42,
+    "date": "2026-05-07",
+    "price": 63.75,
+    "change": 0.39,
     "fundamental": 58,
     "technical": 64,
     "valuation": 75,
@@ -109,13 +109,13 @@
     "total": 65,
     "keyPositive": "Traffic ศูนย์การค้าฟื้น",
     "keyNegative": "ต้นทุนการเงินสูง",
-    "lastUpdatedAt": "2026-05-07T03:22:09.048132+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:09.107896+00:00"
   },
   {
     "symbol": "CRC",
-    "date": "2026-05-06",
-    "price": 18.700000762939453,
-    "change": 2.75,
+    "date": "2026-05-07",
+    "price": 18.899999618530273,
+    "change": 1.07,
     "fundamental": 72,
     "technical": 22,
     "valuation": 71,
@@ -123,13 +123,13 @@
     "total": 59,
     "keyPositive": "ยอดขายสาขาเดิมดีขึ้น",
     "keyNegative": "กำลังซื้อเปราะบาง",
-    "lastUpdatedAt": "2026-05-07T03:22:09.194264+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:09.417718+00:00"
   },
   {
     "symbol": "DELTA",
-    "date": "2026-05-06",
-    "price": 323.0,
-    "change": 4.19,
+    "date": "2026-05-07",
+    "price": 327.0,
+    "change": 1.24,
     "fundamental": 60,
     "technical": 94,
     "valuation": 58,
@@ -137,7 +137,7 @@
     "total": 72,
     "keyPositive": "กระแส EV/Data Center",
     "keyNegative": "Valuation แพงมาก",
-    "lastUpdatedAt": "2026-05-07T03:22:09.384480+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:09.765736+00:00"
   },
   {
     "symbol": "EGCO",
@@ -151,40 +151,40 @@
     "total": 66,
     "keyPositive": "รายได้โรงไฟฟ้าสม่ำเสมอ",
     "keyNegative": "Bond yield สูงกด valuation",
-    "lastUpdatedAt": "2026-05-07T03:22:09.607508+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:10.110127+00:00"
   },
   {
     "symbol": "GPSC",
-    "date": "2026-05-06",
-    "price": 36.75,
-    "change": 5.0,
+    "date": "2026-05-07",
+    "price": 38.0,
+    "change": 3.4,
     "fundamental": 66,
-    "technical": 62,
+    "technical": 86,
     "valuation": 40,
     "impact": 56,
-    "total": 58,
+    "total": 64,
     "keyPositive": "ต้นทุนก๊าซลดลง",
     "keyNegative": "ค่าเงินบาทและดอกเบี้ย",
-    "lastUpdatedAt": "2026-05-07T03:22:09.761676+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:10.422139+00:00"
   },
   {
     "symbol": "GULF",
-    "date": "2026-05-06",
-    "price": 60.75,
-    "change": 5.65,
+    "date": "2026-05-07",
+    "price": 61.25,
+    "change": 0.82,
     "fundamental": 66,
-    "technical": 100,
+    "technical": 94,
     "valuation": 46,
     "impact": 47,
-    "total": 68,
+    "total": 66,
     "keyPositive": "โครงการใหม่ทยอย COD",
     "keyNegative": "หนี้จากการลงทุน",
-    "lastUpdatedAt": "2026-05-07T03:22:09.877613+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:10.772584+00:00"
   },
   {
     "symbol": "HMPRO",
-    "date": "2026-05-06",
-    "price": 6.050000190734863,
+    "date": "2026-05-07",
+    "price": 6.099999904632568,
     "change": 0.83,
     "fundamental": 70,
     "technical": 16,
@@ -193,13 +193,13 @@
     "total": 52,
     "keyPositive": "ยอดขายบ้านและซ่อมแซม",
     "keyNegative": "กำลังซื้อชะลอ",
-    "lastUpdatedAt": "2026-05-07T03:22:10.056232+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:11.150021+00:00"
   },
   {
     "symbol": "KBANK",
-    "date": "2026-05-06",
-    "price": 196.5,
-    "change": 1.55,
+    "date": "2026-05-07",
+    "price": 196.0,
+    "change": -0.25,
     "fundamental": 75,
     "technical": 86,
     "valuation": 53,
@@ -207,27 +207,27 @@
     "total": 69,
     "keyPositive": "P/BV ต่ำกว่าค่าเฉลี่ย",
     "keyNegative": "NPL ต้องติดตาม",
-    "lastUpdatedAt": "2026-05-07T03:22:10.263798+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:11.510717+00:00"
   },
   {
     "symbol": "KTB",
-    "date": "2026-05-06",
-    "price": 32.5,
-    "change": 0.0,
+    "date": "2026-05-07",
+    "price": 32.75,
+    "change": 0.77,
     "fundamental": 62,
-    "technical": 40,
+    "technical": 46,
     "valuation": 77,
     "impact": 54,
-    "total": 58,
+    "total": 60,
     "keyPositive": "รายได้ดอกเบี้ยดี",
     "keyNegative": "คุณภาพสินทรัพย์",
-    "lastUpdatedAt": "2026-05-07T03:22:10.444975+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:11.907640+00:00"
   },
   {
     "symbol": "KTC",
-    "date": "2026-05-06",
+    "date": "2026-05-07",
     "price": 29.75,
-    "change": 0.85,
+    "change": 0.0,
     "fundamental": 73,
     "technical": 64,
     "valuation": 38,
@@ -235,27 +235,27 @@
     "total": 64,
     "keyPositive": "คุณภาพลูกหนี้คุมได้",
     "keyNegative": "หนี้ครัวเรือนสูง",
-    "lastUpdatedAt": "2026-05-07T03:22:10.617357+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:12.259813+00:00"
   },
   {
     "symbol": "MINT",
-    "date": "2026-05-06",
-    "price": 20.700000762939453,
-    "change": 1.97,
+    "date": "2026-05-07",
+    "price": 21.299999237060547,
+    "change": 2.9,
     "fundamental": 76,
-    "technical": 16,
+    "technical": 22,
     "valuation": 38,
     "impact": 75,
-    "total": 53,
+    "total": 55,
     "keyPositive": "ท่องเที่ยวและโรงแรมฟื้น",
     "keyNegative": "ต้นทุนดอกเบี้ยสูง",
-    "lastUpdatedAt": "2026-05-07T03:22:10.797420+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:12.610974+00:00"
   },
   {
     "symbol": "OR",
-    "date": "2026-05-06",
+    "date": "2026-05-07",
     "price": 12.5,
-    "change": 1.63,
+    "change": 0.0,
     "fundamental": 69,
     "technical": 76,
     "valuation": 76,
@@ -263,13 +263,13 @@
     "total": 73,
     "keyPositive": "เครือข่ายค้าปลีกใหญ่",
     "keyNegative": "Margin น้ำมันผันผวน",
-    "lastUpdatedAt": "2026-05-07T03:22:10.932134+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:12.964898+00:00"
   },
   {
     "symbol": "PTT",
-    "date": "2026-05-06",
-    "price": 35.5,
-    "change": -2.74,
+    "date": "2026-05-07",
+    "price": 35.75,
+    "change": 0.7,
     "fundamental": 60,
     "technical": 100,
     "valuation": 65,
@@ -277,27 +277,27 @@
     "total": 71,
     "keyPositive": "ปันผลสม่ำเสมอ",
     "keyNegative": "ราคาพลังงานผันผวน",
-    "lastUpdatedAt": "2026-05-07T03:22:11.109533+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:13.354091+00:00"
   },
   {
     "symbol": "PTTEP",
-    "date": "2026-05-06",
-    "price": 150.5,
-    "change": -4.14,
+    "date": "2026-05-07",
+    "price": 149.5,
+    "change": -0.66,
     "fundamental": 75,
-    "technical": 100,
+    "technical": 82,
     "valuation": 48,
     "impact": 75,
-    "total": 76,
+    "total": 71,
     "keyPositive": "ราคาน้ำมันหนุนกำไร",
     "keyNegative": "ราคาน้ำมันปรับลง",
-    "lastUpdatedAt": "2026-05-07T03:22:11.293029+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:13.684364+00:00"
   },
   {
     "symbol": "RATCH",
-    "date": "2026-05-06",
+    "date": "2026-05-07",
     "price": 30.25,
-    "change": 3.42,
+    "change": 0.0,
     "fundamental": 64,
     "technical": 86,
     "valuation": 64,
@@ -305,13 +305,13 @@
     "total": 70,
     "keyPositive": "กระแสเงินสดมั่นคง",
     "keyNegative": "FX และดอกเบี้ย",
-    "lastUpdatedAt": "2026-05-07T03:22:11.475012+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:14.069474+00:00"
   },
   {
     "symbol": "SCB",
-    "date": "2026-05-06",
+    "date": "2026-05-07",
     "price": 132.5,
-    "change": 1.15,
+    "change": 0.0,
     "fundamental": 70,
     "technical": 16,
     "valuation": 67,
@@ -319,13 +319,13 @@
     "total": 56,
     "keyPositive": "Digital business optionality",
     "keyNegative": "NPL และเศรษฐกิจ",
-    "lastUpdatedAt": "2026-05-07T03:22:11.612667+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:14.376858+00:00"
   },
   {
     "symbol": "SCC",
-    "date": "2026-05-06",
-    "price": 238.0,
-    "change": 3.03,
+    "date": "2026-05-07",
+    "price": 236.0,
+    "change": -0.84,
     "fundamental": 65,
     "technical": 100,
     "valuation": 38,
@@ -333,13 +333,13 @@
     "total": 65,
     "keyPositive": "ธุรกิจวัสดุก่อสร้างฟื้น",
     "keyNegative": "ปิโตรเคมีอ่อนตัว",
-    "lastUpdatedAt": "2026-05-07T03:22:11.809688+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:14.753892+00:00"
   },
   {
     "symbol": "SCGP",
-    "date": "2026-05-06",
-    "price": 25.75,
-    "change": 1.98,
+    "date": "2026-05-07",
+    "price": 26.0,
+    "change": 0.97,
     "fundamental": 85,
     "technical": 92,
     "valuation": 42,
@@ -347,13 +347,13 @@
     "total": 74,
     "keyPositive": "Demand บรรจุภัณฑ์ฟื้น",
     "keyNegative": "ต้นทุนวัตถุดิบ",
-    "lastUpdatedAt": "2026-05-07T03:22:11.934440+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:15.083100+00:00"
   },
   {
     "symbol": "TISCO",
-    "date": "2026-05-06",
-    "price": 112.5,
-    "change": 1.81,
+    "date": "2026-05-07",
+    "price": 112.0,
+    "change": -0.44,
     "fundamental": 60,
     "technical": 46,
     "valuation": 59,
@@ -361,13 +361,13 @@
     "total": 56,
     "keyPositive": "Dividend yield เด่น",
     "keyNegative": "สินเชื่อโตจำกัด",
-    "lastUpdatedAt": "2026-05-07T03:22:12.106029+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:15.404639+00:00"
   },
   {
     "symbol": "TOP",
-    "date": "2026-05-06",
+    "date": "2026-05-07",
     "price": 47.5,
-    "change": -0.52,
+    "change": 0.0,
     "fundamental": 86,
     "technical": 64,
     "valuation": 39,
@@ -375,41 +375,41 @@
     "total": 69,
     "keyPositive": "ค่าการกลั่นฟื้น",
     "keyNegative": "Crack spread ผันผวน",
-    "lastUpdatedAt": "2026-05-07T03:22:12.267369+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:15.749184+00:00"
   },
   {
     "symbol": "TRUE",
-    "date": "2026-05-06",
-    "price": 13.899999618530273,
+    "date": "2026-05-07",
+    "price": 14.0,
     "change": 0.72,
     "fundamental": 72,
-    "technical": 82,
+    "technical": 100,
     "valuation": 54,
     "impact": 72,
-    "total": 71,
+    "total": 75,
     "keyPositive": "Synergy หลังควบรวม",
     "keyNegative": "ภาระหนี้สูง",
-    "lastUpdatedAt": "2026-05-07T03:22:12.425575+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:16.070516+00:00"
   },
   {
     "symbol": "TU",
-    "date": "2026-05-06",
-    "price": 11.800000190734863,
-    "change": 1.72,
+    "date": "2026-05-07",
+    "price": 11.899999618530273,
+    "change": 0.85,
     "fundamental": 71,
-    "technical": 76,
+    "technical": 70,
     "valuation": 66,
     "impact": 56,
-    "total": 69,
+    "total": 68,
     "keyPositive": "ส่งออกอาหารทะเล",
     "keyNegative": "ค่าเงินและต้นทุนวัตถุดิบ",
-    "lastUpdatedAt": "2026-05-07T03:22:12.671362+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:16.434262+00:00"
   },
   {
     "symbol": "WHA",
-    "date": "2026-05-06",
+    "date": "2026-05-07",
     "price": 4.659999847412109,
-    "change": 5.43,
+    "change": 0.0,
     "fundamental": 59,
     "technical": 94,
     "valuation": 38,
@@ -417,6 +417,6 @@
     "total": 66,
     "keyPositive": "FDI และนิคมอุตสาหกรรม",
     "keyNegative": "ยอดขายที่ดินไม่สม่ำเสมอ",
-    "lastUpdatedAt": "2026-05-07T03:22:12.817659+00:00"
+    "lastUpdatedAt": "2026-05-07T03:31:16.796275+00:00"
   }
 ]
