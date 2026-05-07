@@ -87,3 +87,15 @@ public/data/scores.json
 If one ticker fails, the script keeps the previous data for that ticker so the dashboard still works.
 
 > Note: GitHub scheduled workflows can be delayed. The schedule should be treated as "around 06:00" rather than guaranteed exact delivery.
+
+## v5 updates
+
+- TradingView links are more visible on the Dashboard table and Stock Detail header.
+- Score logic updated to `v2-factor-impact`:
+  - Fundamental 35% (manual V1 input)
+  - Technical 30% (auto: MA20/50/200, RSI14, 20d/60d momentum)
+  - Valuation 15% (manual V1 input)
+  - Impact 20% (auto from active Positive/Negative/Watch factors in `factors.json`)
+- `factors.json` now contains Positive, Negative and Watch factors for all 30 stocks.
+
+This dashboard is for personal research only and is not investment advice.

@@ -3,10 +3,10 @@
     "symbol": "ADVANC",
     "date": "2026-05-07",
     "type": "Positive",
-    "level": "Medium",
-    "title": "ARPU และ 5G โต",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "level": "High",
+    "title": "รายได้บริการมือถือและ 5G หนุน ARPU",
+    "detail": "ธุรกิจหลักมีรายได้ประจำและฐานลูกค้าขนาดใหญ่ ช่วยให้กระแสเงินสดค่อนข้างมั่นคง",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/ADVANC/overview",
     "status": "Active"
   },
   {
@@ -14,19 +14,29 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "การแข่งขันราคา",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "การแข่งขันราคาและต้นทุนโครงข่าย",
+    "detail": "ต้องติดตามการแข่งขันในตลาดมือถือและค่าใช้จ่ายลงทุนโครงข่าย",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/ADVANC/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "ADVANC",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "การเติบโตของบริการดิจิทัล",
+    "detail": "ติดตามว่าส่วน enterprise/cloud จะเพิ่มสัดส่วนรายได้ได้จริงหรือไม่",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/ADVANC/overview",
     "status": "Active"
   },
   {
     "symbol": "AOT",
     "date": "2026-05-07",
     "type": "Positive",
-    "level": "Medium",
-    "title": "นักท่องเที่ยวฟื้นตัว",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "level": "High",
+    "title": "การท่องเที่ยวและผู้โดยสารต่างชาติฟื้นตัว",
+    "detail": "จำนวนผู้โดยสารและเที่ยวบินที่เพิ่มขึ้นช่วยหนุนรายได้สนามบินและ concession",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/AOT/overview",
     "status": "Active"
   },
   {
@@ -34,9 +44,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "Valuation ยังสูง",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "Valuation และความคาดหวังสูง",
+    "detail": "ราคาหุ้นอาจสะท้อนการฟื้นตัวไปมากแล้ว ต้องระวังเมื่อ traffic โตต่ำกว่าคาด",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/AOT/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "AOT",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "นโยบายค่าธรรมเนียมและ concession",
+    "detail": "ติดตามการเปลี่ยนแปลงสัญญาและนโยบายรัฐที่กระทบรายได้",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/AOT/overview",
     "status": "Active"
   },
   {
@@ -44,9 +64,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "ฐานเงินทุนแข็งแรง",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "ฐานเงินทุนและลูกค้าธุรกิจแข็งแรง",
+    "detail": "ธนาคารขนาดใหญ่มีฐานลูกค้า corporate และเงินกองทุนแข็งแรง",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/BBL/overview",
     "status": "Active"
   },
   {
@@ -54,19 +74,29 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "สินเชื่อโตช้า",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "สินเชื่อโตช้าและ NPL",
+    "detail": "เศรษฐกิจชะลออาจกดดันการเติบโตสินเชื่อและคุณภาพหนี้",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/BBL/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "BBL",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "ทิศทางดอกเบี้ยและ NIM",
+    "detail": "ดอกเบี้ยขาลงอาจกระทบส่วนต่างดอกเบี้ยสุทธิ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/BBL/overview",
     "status": "Active"
   },
   {
     "symbol": "BDMS",
     "date": "2026-05-07",
     "type": "Positive",
-    "level": "Medium",
-    "title": "Medical tourism",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "level": "High",
+    "title": "Medical tourism และเครือข่ายโรงพยาบาล",
+    "detail": "ฐานผู้ป่วยต่างชาติและเครือข่ายโรงพยาบาลช่วยหนุนรายได้ระยะยาว",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/BDMS/overview",
     "status": "Active"
   },
   {
@@ -74,19 +104,29 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "ราคาไม่ถูก",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ราคาไม่ถูกเมื่อเทียบการเติบโต",
+    "detail": "ต้องระวัง valuation หากกำไรโตช้ากว่าคาด",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/BDMS/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "BDMS",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Low",
+    "title": "ต้นทุนบุคลากรทางการแพทย์",
+    "detail": "ติดตามค่าใช้จ่ายแพทย์ พยาบาล และต้นทุนบริการ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/BDMS/overview",
     "status": "Active"
   },
   {
     "symbol": "BH",
     "date": "2026-05-07",
     "type": "Positive",
-    "level": "Medium",
-    "title": "ผู้ป่วยต่างชาติฟื้น",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "level": "High",
+    "title": "ผู้ป่วยต่างชาติและ premium segment",
+    "detail": "โรงพยาบาลเน้นผู้ป่วยต่างชาติและกลุ่มกำลังซื้อสูง",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/BH/overview",
     "status": "Active"
   },
   {
@@ -94,19 +134,29 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "ความคาดหวังสูง",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ความคาดหวังกำไรสูง",
+    "detail": "ราคาหุ้นอาจผันผวนหากจำนวนผู้ป่วยหรือ margin ต่ำกว่าคาด",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/BH/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "BH",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "การแข่งขันโรงพยาบาลเอกชน",
+    "detail": "ติดตามคู่แข่งในกลุ่ม medical tourism",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/BH/overview",
     "status": "Active"
   },
   {
     "symbol": "CPALL",
     "date": "2026-05-07",
     "type": "Positive",
-    "level": "Medium",
-    "title": "กำลังซื้อในประเทศฟื้น",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "level": "High",
+    "title": "เครือข่ายร้านสะดวกซื้อขนาดใหญ่",
+    "detail": "จำนวนสาขาและ traffic รายวันช่วยสร้างรายได้ประจำ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/CPALL/overview",
     "status": "Active"
   },
   {
@@ -114,9 +164,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "ต้นทุนค่าแรงสูงขึ้น",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ต้นทุนค่าแรงและค่าไฟ",
+    "detail": "ต้นทุนดำเนินงานที่เพิ่มขึ้นอาจกดดัน margin",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/CPALL/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "CPALL",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "กำลังซื้อในประเทศ",
+    "detail": "ติดตามยอดขายต่อสาขาเดิมและภาวะบริโภค",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/CPALL/overview",
     "status": "Active"
   },
   {
@@ -124,9 +184,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "ต้นทุนอาหารสัตว์ผ่อนคลาย",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "การส่งออกและสินค้าอาหารจำเป็น",
+    "detail": "ธุรกิจอาหารมี demand ค่อนข้างสม่ำเสมอ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/CPF/overview",
     "status": "Active"
   },
   {
@@ -134,9 +194,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "ราคาสินค้าเกษตรผันผวน",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ต้นทุนวัตถุดิบและ FX",
+    "detail": "วัตถุดิบ ค่าเงินบาท และ freight กระทบ margin",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/CPF/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "CPF",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "ราคาเนื้อสัตว์และคำสั่งซื้อส่งออก",
+    "detail": "ติดตาม spread และ demand ตลาดต่างประเทศ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/CPF/overview",
     "status": "Active"
   },
   {
@@ -144,9 +214,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "Traffic ศูนย์การค้าฟื้น",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "สินทรัพย์และโครงการคุณภาพ",
+    "detail": "รายได้ขึ้นกับทำเลและคุณภาพสินทรัพย์",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/CPN/overview",
     "status": "Active"
   },
   {
@@ -154,9 +224,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "ต้นทุนการเงินสูง",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ดอกเบี้ยและกำลังซื้ออสังหา",
+    "detail": "ดอกเบี้ยสูงและหนี้ครัวเรือนกดดันยอดโอน",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/CPN/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "CPN",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "ยอด presales/occupancy",
+    "detail": "ติดตามยอดขายล่วงหน้าและอัตราเช่า",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/CPN/overview",
     "status": "Active"
   },
   {
@@ -164,9 +244,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "ยอดขายสาขาเดิมดีขึ้น",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "การบริโภคในประเทศฟื้นตัว",
+    "detail": "ยอดขายได้ประโยชน์จาก traffic และกำลังซื้อในประเทศ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/CRC/overview",
     "status": "Active"
   },
   {
@@ -174,29 +254,49 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "กำลังซื้อเปราะบาง",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "margin ถูกกดดันจาก promotion/cost",
+    "detail": "การแข่งขันและต้นทุนทำให้ margin ผันผวน",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/CRC/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "CRC",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "same-store sales growth",
+    "detail": "ติดตาม SSSG เป็นตัววัดสุขภาพธุรกิจค้าปลีก",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/CRC/overview",
     "status": "Active"
   },
   {
     "symbol": "DELTA",
     "date": "2026-05-07",
     "type": "Positive",
-    "level": "Medium",
-    "title": "กระแส EV/Data Center",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "level": "High",
+    "title": "โครงสร้างเติบโตจากอิเล็กทรอนิกส์และ EV",
+    "detail": "ความต้องการ power electronics และ data center เป็นภาพบวกระยะยาว",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/DELTA/overview",
     "status": "Active"
   },
   {
     "symbol": "DELTA",
     "date": "2026-05-07",
     "type": "Negative",
+    "level": "High",
+    "title": "Valuation สูงและความผันผวนแรง",
+    "detail": "ราคาหุ้นมีโอกาสแกว่งแรงหากกำไรไม่ทันความคาดหวัง",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/DELTA/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "DELTA",
+    "date": "2026-05-07",
+    "type": "Watch",
     "level": "Medium",
-    "title": "Valuation แพงมาก",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ค่าเงินบาทและคำสั่งซื้อส่งออก",
+    "detail": "ติดตาม FX และ backlog จากลูกค้าต่างประเทศ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/DELTA/overview",
     "status": "Active"
   },
   {
@@ -204,9 +304,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "รายได้โรงไฟฟ้าสม่ำเสมอ",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "กระแสเงินสดจากธุรกิจพลังงาน/สาธารณูปโภค",
+    "detail": "ธุรกิจมีความจำเป็นต่อเศรษฐกิจและมีรายได้ค่อนข้างสม่ำเสมอ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/EGCO/overview",
     "status": "Active"
   },
   {
@@ -214,9 +314,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "Bond yield สูงกด valuation",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ราคาพลังงานและ regulation",
+    "detail": "ราคาพลังงานและนโยบายรัฐอาจทำให้กำไรผันผวน",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/EGCO/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "EGCO",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "ต้นทุนเชื้อเพลิงและค่าเงินบาท",
+    "detail": "ติดตาม fuel cost, FX และสัญญาซื้อขายไฟ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/EGCO/overview",
     "status": "Active"
   },
   {
@@ -224,9 +334,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "ต้นทุนก๊าซลดลง",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "กระแสเงินสดจากธุรกิจพลังงาน/สาธารณูปโภค",
+    "detail": "ธุรกิจมีความจำเป็นต่อเศรษฐกิจและมีรายได้ค่อนข้างสม่ำเสมอ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/GPSC/overview",
     "status": "Active"
   },
   {
@@ -234,9 +344,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "ค่าเงินบาทและดอกเบี้ย",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ราคาพลังงานและ regulation",
+    "detail": "ราคาพลังงานและนโยบายรัฐอาจทำให้กำไรผันผวน",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/GPSC/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "GPSC",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "ต้นทุนเชื้อเพลิงและค่าเงินบาท",
+    "detail": "ติดตาม fuel cost, FX และสัญญาซื้อขายไฟ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/GPSC/overview",
     "status": "Active"
   },
   {
@@ -244,9 +364,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "โครงการใหม่ทยอย COD",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "กระแสเงินสดจากธุรกิจพลังงาน/สาธารณูปโภค",
+    "detail": "ธุรกิจมีความจำเป็นต่อเศรษฐกิจและมีรายได้ค่อนข้างสม่ำเสมอ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/GULF/overview",
     "status": "Active"
   },
   {
@@ -254,9 +374,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "หนี้จากการลงทุน",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ราคาพลังงานและ regulation",
+    "detail": "ราคาพลังงานและนโยบายรัฐอาจทำให้กำไรผันผวน",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/GULF/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "GULF",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "ต้นทุนเชื้อเพลิงและค่าเงินบาท",
+    "detail": "ติดตาม fuel cost, FX และสัญญาซื้อขายไฟ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/GULF/overview",
     "status": "Active"
   },
   {
@@ -264,9 +394,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "ยอดขายบ้านและซ่อมแซม",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "การบริโภคในประเทศฟื้นตัว",
+    "detail": "ยอดขายได้ประโยชน์จาก traffic และกำลังซื้อในประเทศ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/HMPRO/overview",
     "status": "Active"
   },
   {
@@ -274,9 +404,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "กำลังซื้อชะลอ",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "margin ถูกกดดันจาก promotion/cost",
+    "detail": "การแข่งขันและต้นทุนทำให้ margin ผันผวน",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/HMPRO/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "HMPRO",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "same-store sales growth",
+    "detail": "ติดตาม SSSG เป็นตัววัดสุขภาพธุรกิจค้าปลีก",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/HMPRO/overview",
     "status": "Active"
   },
   {
@@ -284,19 +424,29 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "P/BV ต่ำกว่าค่าเฉลี่ย",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "ฐานลูกค้า SME และ digital platform",
+    "detail": "มีจุดแข็งด้าน SME และช่องทางดิจิทัล",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/KBANK/overview",
     "status": "Active"
   },
   {
     "symbol": "KBANK",
     "date": "2026-05-07",
     "type": "Negative",
+    "level": "High",
+    "title": "NPL และ credit cost ต้องติดตาม",
+    "detail": "กลุ่ม SME อ่อนไหวต่อเศรษฐกิจ อาจกระทบคุณภาพหนี้",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/KBANK/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "KBANK",
+    "date": "2026-05-07",
+    "type": "Watch",
     "level": "Medium",
-    "title": "NPL ต้องติดตาม",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "การฟื้นตัวของสินเชื่อธุรกิจ",
+    "detail": "ติดตามสัญญาณการปล่อยสินเชื่อใหม่และตั้งสำรอง",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/KBANK/overview",
     "status": "Active"
   },
   {
@@ -304,9 +454,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "รายได้ดอกเบี้ยดี",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "Valuation ธนาคารยังไม่สูงมาก",
+    "detail": "กลุ่มธนาคารมักซื้อขายด้วย P/BV ต่ำกว่ากลุ่ม growth",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/KTB/overview",
     "status": "Active"
   },
   {
@@ -314,9 +464,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "คุณภาพสินทรัพย์",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "NPL และ credit cost",
+    "detail": "ต้องติดตามคุณภาพสินเชื่อและการตั้งสำรอง",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/KTB/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "KTB",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "ทิศทางดอกเบี้ย",
+    "detail": "ดอกเบี้ยมีผลต่อ NIM และความสามารถชำระหนี้ของลูกค้า",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/KTB/overview",
     "status": "Active"
   },
   {
@@ -324,9 +484,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "คุณภาพลูกหนี้คุมได้",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "หุ้นขนาดใหญ่และสภาพคล่องสูง",
+    "detail": "เหมาะสำหรับ watchlist เริ่มต้นเพื่อติดตามข้อมูลต่อเนื่อง",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/KTC/overview",
     "status": "Active"
   },
   {
@@ -334,9 +494,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "หนี้ครัวเรือนสูง",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ต้องตรวจสอบ valuation และข่าวเฉพาะกิจการ",
+    "detail": "ปัจจัยลบอาจมาจากกำไรต่ำคาดหรือความคาดหวังสูง",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/KTC/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "KTC",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "งบการเงินไตรมาสถัดไป",
+    "detail": "ใช้ผลประกอบการล่าสุดยืนยันแนวโน้มก่อนตัดสินใจ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/KTC/overview",
     "status": "Active"
   },
   {
@@ -344,9 +514,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "ท่องเที่ยวและโรงแรมฟื้น",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "หุ้นขนาดใหญ่และสภาพคล่องสูง",
+    "detail": "เหมาะสำหรับ watchlist เริ่มต้นเพื่อติดตามข้อมูลต่อเนื่อง",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/MINT/overview",
     "status": "Active"
   },
   {
@@ -354,9 +524,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "ต้นทุนดอกเบี้ยสูง",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ต้องตรวจสอบ valuation และข่าวเฉพาะกิจการ",
+    "detail": "ปัจจัยลบอาจมาจากกำไรต่ำคาดหรือความคาดหวังสูง",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/MINT/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "MINT",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "งบการเงินไตรมาสถัดไป",
+    "detail": "ใช้ผลประกอบการล่าสุดยืนยันแนวโน้มก่อนตัดสินใจ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/MINT/overview",
     "status": "Active"
   },
   {
@@ -364,9 +544,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "เครือข่ายค้าปลีกใหญ่",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "กระแสเงินสดจากธุรกิจพลังงาน/สาธารณูปโภค",
+    "detail": "ธุรกิจมีความจำเป็นต่อเศรษฐกิจและมีรายได้ค่อนข้างสม่ำเสมอ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/OR/overview",
     "status": "Active"
   },
   {
@@ -374,9 +554,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "Margin น้ำมันผันผวน",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ราคาพลังงานและ regulation",
+    "detail": "ราคาพลังงานและนโยบายรัฐอาจทำให้กำไรผันผวน",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/OR/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "OR",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "ต้นทุนเชื้อเพลิงและค่าเงินบาท",
+    "detail": "ติดตาม fuel cost, FX และสัญญาซื้อขายไฟ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/OR/overview",
     "status": "Active"
   },
   {
@@ -384,9 +574,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "ปันผลสม่ำเสมอ",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "ฐานธุรกิจพลังงานครบวงจรและเงินปันผล",
+    "detail": "ธุรกิจหลากหลายช่วยลดความเสี่ยงบางส่วนและมีประวัติจ่ายปันผล",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/PTT/overview",
     "status": "Active"
   },
   {
@@ -394,29 +584,49 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "ราคาพลังงานผันผวน",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ราคาน้ำมันและค่าการกลั่นผันผวน",
+    "detail": "กำไรขึ้นกับ commodity cycle และธุรกิจในเครือ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/PTT/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "PTT",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "นโยบายรัฐด้านพลังงาน",
+    "detail": "ติดตามการแทรกแซงราคาและนโยบายพลังงาน",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/PTT/overview",
     "status": "Active"
   },
   {
     "symbol": "PTTEP",
     "date": "2026-05-07",
     "type": "Positive",
-    "level": "Medium",
-    "title": "ราคาน้ำมันหนุนกำไร",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "level": "High",
+    "title": "ราคาพลังงานและปริมาณขายหนุนกำไร",
+    "detail": "ธุรกิจสำรวจผลิตได้ประโยชน์เมื่อราคาน้ำมันและก๊าซอยู่ในระดับดี",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/PTTEP/overview",
     "status": "Active"
   },
   {
     "symbol": "PTTEP",
     "date": "2026-05-07",
     "type": "Negative",
+    "level": "High",
+    "title": "ความผันผวนของราคาน้ำมัน",
+    "detail": "ราคาน้ำมันโลกที่ลดลงกระทบรายได้และกำไรโดยตรง",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/PTTEP/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "PTTEP",
+    "date": "2026-05-07",
+    "type": "Watch",
     "level": "Medium",
-    "title": "ราคาน้ำมันปรับลง",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "โครงการลงทุนและ reserve replacement",
+    "detail": "ติดตามโครงการใหม่และการรักษาปริมาณสำรอง",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/PTTEP/overview",
     "status": "Active"
   },
   {
@@ -424,9 +634,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "กระแสเงินสดมั่นคง",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "กระแสเงินสดจากธุรกิจพลังงาน/สาธารณูปโภค",
+    "detail": "ธุรกิจมีความจำเป็นต่อเศรษฐกิจและมีรายได้ค่อนข้างสม่ำเสมอ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/RATCH/overview",
     "status": "Active"
   },
   {
@@ -434,9 +644,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "FX และดอกเบี้ย",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ราคาพลังงานและ regulation",
+    "detail": "ราคาพลังงานและนโยบายรัฐอาจทำให้กำไรผันผวน",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/RATCH/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "RATCH",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "ต้นทุนเชื้อเพลิงและค่าเงินบาท",
+    "detail": "ติดตาม fuel cost, FX และสัญญาซื้อขายไฟ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/RATCH/overview",
     "status": "Active"
   },
   {
@@ -444,9 +664,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "Digital business optionality",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "ฐานลูกค้ารายย่อยและ digital banking",
+    "detail": "ธนาคารมีฐานลูกค้ากว้างและต่อยอดบริการการเงินดิจิทัลได้",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/SCB/overview",
     "status": "Active"
   },
   {
@@ -454,9 +674,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "NPL และเศรษฐกิจ",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "คุณภาพสินเชื่อรายย่อย",
+    "detail": "หนี้ครัวเรือนสูงอาจเพิ่ม credit cost",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/SCB/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "SCB",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "ทิศทางสินเชื่อและ fee income",
+    "detail": "ติดตามการเติบโตสินเชื่อและรายได้ค่าธรรมเนียม",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/SCB/overview",
     "status": "Active"
   },
   {
@@ -464,9 +694,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "ธุรกิจวัสดุก่อสร้างฟื้น",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "หุ้นขนาดใหญ่และสภาพคล่องสูง",
+    "detail": "เหมาะสำหรับ watchlist เริ่มต้นเพื่อติดตามข้อมูลต่อเนื่อง",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/SCC/overview",
     "status": "Active"
   },
   {
@@ -474,9 +704,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "ปิโตรเคมีอ่อนตัว",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ต้องตรวจสอบ valuation และข่าวเฉพาะกิจการ",
+    "detail": "ปัจจัยลบอาจมาจากกำไรต่ำคาดหรือความคาดหวังสูง",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/SCC/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "SCC",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "งบการเงินไตรมาสถัดไป",
+    "detail": "ใช้ผลประกอบการล่าสุดยืนยันแนวโน้มก่อนตัดสินใจ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/SCC/overview",
     "status": "Active"
   },
   {
@@ -484,9 +724,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "Demand บรรจุภัณฑ์ฟื้น",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "หุ้นขนาดใหญ่และสภาพคล่องสูง",
+    "detail": "เหมาะสำหรับ watchlist เริ่มต้นเพื่อติดตามข้อมูลต่อเนื่อง",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/SCGP/overview",
     "status": "Active"
   },
   {
@@ -494,9 +734,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "ต้นทุนวัตถุดิบ",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ต้องตรวจสอบ valuation และข่าวเฉพาะกิจการ",
+    "detail": "ปัจจัยลบอาจมาจากกำไรต่ำคาดหรือความคาดหวังสูง",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/SCGP/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "SCGP",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "งบการเงินไตรมาสถัดไป",
+    "detail": "ใช้ผลประกอบการล่าสุดยืนยันแนวโน้มก่อนตัดสินใจ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/SCGP/overview",
     "status": "Active"
   },
   {
@@ -504,9 +754,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "Dividend yield เด่น",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "Valuation ธนาคารยังไม่สูงมาก",
+    "detail": "กลุ่มธนาคารมักซื้อขายด้วย P/BV ต่ำกว่ากลุ่ม growth",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/TISCO/overview",
     "status": "Active"
   },
   {
@@ -514,9 +764,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "สินเชื่อโตจำกัด",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "NPL และ credit cost",
+    "detail": "ต้องติดตามคุณภาพสินเชื่อและการตั้งสำรอง",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/TISCO/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "TISCO",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "ทิศทางดอกเบี้ย",
+    "detail": "ดอกเบี้ยมีผลต่อ NIM และความสามารถชำระหนี้ของลูกค้า",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/TISCO/overview",
     "status": "Active"
   },
   {
@@ -524,9 +784,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "ค่าการกลั่นฟื้น",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "กระแสเงินสดจากธุรกิจพลังงาน/สาธารณูปโภค",
+    "detail": "ธุรกิจมีความจำเป็นต่อเศรษฐกิจและมีรายได้ค่อนข้างสม่ำเสมอ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/TOP/overview",
     "status": "Active"
   },
   {
@@ -534,9 +794,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "Crack spread ผันผวน",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ราคาพลังงานและ regulation",
+    "detail": "ราคาพลังงานและนโยบายรัฐอาจทำให้กำไรผันผวน",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/TOP/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "TOP",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "ต้นทุนเชื้อเพลิงและค่าเงินบาท",
+    "detail": "ติดตาม fuel cost, FX และสัญญาซื้อขายไฟ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/TOP/overview",
     "status": "Active"
   },
   {
@@ -544,9 +814,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "Synergy หลังควบรวม",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "รายได้ประจำจากบริการสื่อสาร",
+    "detail": "รายได้ subscription ช่วยให้กระแสเงินสดมั่นคง",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/TRUE/overview",
     "status": "Active"
   },
   {
@@ -554,9 +824,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "ภาระหนี้สูง",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ต้นทุนลงทุนโครงข่าย",
+    "detail": "CAPEX สูงและการแข่งขันกดดัน margin",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/TRUE/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "TRUE",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "ARPU และ churn rate",
+    "detail": "ติดตามคุณภาพรายได้ลูกค้า",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/TRUE/overview",
     "status": "Active"
   },
   {
@@ -564,9 +844,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "ส่งออกอาหารทะเล",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "การส่งออกและสินค้าอาหารจำเป็น",
+    "detail": "ธุรกิจอาหารมี demand ค่อนข้างสม่ำเสมอ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/TU/overview",
     "status": "Active"
   },
   {
@@ -574,9 +854,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "ค่าเงินและต้นทุนวัตถุดิบ",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ต้นทุนวัตถุดิบและ FX",
+    "detail": "วัตถุดิบ ค่าเงินบาท และ freight กระทบ margin",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/TU/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "TU",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "ราคาเนื้อสัตว์และคำสั่งซื้อส่งออก",
+    "detail": "ติดตาม spread และ demand ตลาดต่างประเทศ",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/TU/overview",
     "status": "Active"
   },
   {
@@ -584,9 +874,9 @@
     "date": "2026-05-07",
     "type": "Positive",
     "level": "Medium",
-    "title": "FDI และนิคมอุตสาหกรรม",
-    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
-    "sourceUrl": "",
+    "title": "สินทรัพย์และโครงการคุณภาพ",
+    "detail": "รายได้ขึ้นกับทำเลและคุณภาพสินทรัพย์",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/WHA/overview",
     "status": "Active"
   },
   {
@@ -594,9 +884,19 @@
     "date": "2026-05-07",
     "type": "Negative",
     "level": "Medium",
-    "title": "ยอดขายที่ดินไม่สม่ำเสมอ",
-    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
-    "sourceUrl": "",
+    "title": "ดอกเบี้ยและกำลังซื้ออสังหา",
+    "detail": "ดอกเบี้ยสูงและหนี้ครัวเรือนกดดันยอดโอน",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/WHA/overview",
+    "status": "Active"
+  },
+  {
+    "symbol": "WHA",
+    "date": "2026-05-07",
+    "type": "Watch",
+    "level": "Medium",
+    "title": "ยอด presales/occupancy",
+    "detail": "ติดตามยอดขายล่วงหน้าและอัตราเช่า",
+    "sourceUrl": "https://www.set.or.th/en/market/product/stock/quote/WHA/overview",
     "status": "Active"
   }
 ]

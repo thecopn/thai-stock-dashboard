@@ -75,7 +75,20 @@ def calculate_rsi(close: pd.Series, period: int = 14) -> pd.Series:
     return 100 - (100 / (1 + rs))
 
 
-def calculate_technical_score(latest: pd.Series) -> int:
+def clamp_score(value: float) -> int:
+    return max(0, min(100, round(value)))
+
+
+def calculate_technical_score(df: pd.DataFrame) -> int:
+    """Technical score from trend, momentum and RSI.
+
+    This is intentionally simple and explainable for V1:
+    - Price above MA20/50/200 improves score
+    - MA20 above MA50 improves score
+    - 20d/60d momentum improves score
+    - RSI in a healthy range improves score, overbought/weak RSI penalizes score
+    """
+    latest = df.iloc[-1]
     score = 50
     close = clean_number(latest.get("Close"), None)
     ma20 = clean_number(latest.get("MA20"), None)
@@ -88,9 +101,21 @@ def calculate_technical_score(latest: pd.Series) -> int:
     if close is not None and ma50 is not None:
         score += 12 if close >= ma50 else -10
     if close is not None and ma200 is not None:
-        score += 12 if close >= ma200 else -12
+        score += 14 if close >= ma200 else -14
     if ma20 is not None and ma50 is not None:
         score += 8 if ma20 >= ma50 else -6
+
+    if len(df) >= 21 and close is not None:
+        close_20 = clean_number(df.iloc[-21].get("Close"), None)
+        if close_20:
+            momentum20 = ((close - close_20) / close_20) * 100
+            score += 8 if momentum20 >= 5 else 4 if momentum20 >= 1 else -6 if momentum20 <= -5 else 0
+
+    if len(df) >= 61 and close is not None:
+        close_60 = clean_number(df.iloc[-61].get("Close"), None)
+        if close_60:
+            momentum60 = ((close - close_60) / close_60) * 100
+            score += 8 if momentum60 >= 8 else 4 if momentum60 >= 2 else -8 if momentum60 <= -8 else 0
 
     if rsi is not None:
         if 45 <= rsi <= 65:
@@ -98,11 +123,55 @@ def calculate_technical_score(latest: pd.Series) -> int:
         elif 35 <= rsi < 45 or 65 < rsi <= 75:
             score += 2
         elif rsi > 80:
-            score -= 10
+            score -= 12
         elif rsi < 30:
-            score -= 6
+            score -= 8
 
-    return max(0, min(100, round(score)))
+    return clamp_score(score)
+
+
+def factor_weight(item: dict[str, Any]) -> int:
+    level = str(item.get("level", "Medium")).lower()
+    base = {"high": 18, "medium": 11, "low": 6}.get(level, 11)
+    factor_type = str(item.get("type", "Watch")).lower()
+    if factor_type == "positive":
+        return base
+    if factor_type == "negative":
+        return -base
+    # Watch means uncertainty/risk to monitor, so it is a smaller negative by default.
+    return -max(3, round(base * 0.45))
+
+
+def calculate_impact_score(symbol: str, factors_by_symbol: dict[str, list[dict[str, Any]]]) -> int:
+    active = [
+        item
+        for item in factors_by_symbol.get(symbol, [])
+        if str(item.get("status", "Active")).lower() == "active"
+    ]
+    if not active:
+        return 50
+    return clamp_score(50 + sum(factor_weight(item) for item in active))
+
+
+def pick_factor_title(symbol: str, factors_by_symbol: dict[str, list[dict[str, Any]]], factor_type: str) -> str:
+    items = [
+        item for item in factors_by_symbol.get(symbol, [])
+        if str(item.get("status", "Active")).lower() == "active" and item.get("type") == factor_type
+    ]
+    if not items:
+        return "-"
+    level_rank = {"High": 3, "Medium": 2, "Low": 1}
+    items.sort(key=lambda item: level_rank.get(item.get("level"), 0), reverse=True)
+    return str(items[0].get("title", "-"))
+
+
+def build_score_reason(fundamental: int, technical: int, valuation: int, impact: int, total: int) -> str:
+    return (
+        f"Total score {total}/100 is calculated from Fundamental {fundamental} (35%), "
+        f"Technical {technical} (30%), Valuation {valuation} (15%) and Impact {impact} (20%). "
+        "Fundamental and valuation are manual V1 inputs; technical is calculated from price trend/RSI; "
+        "impact is calculated from active factors in factors.json."
+    )
 
 
 def get_quote_price(ticker: yf.Ticker) -> float | None:
@@ -249,20 +318,21 @@ def frame_to_price_rows(df: pd.DataFrame) -> list[dict[str, Any]]:
     return rows
 
 
-def update_score(existing_score: dict[str, Any], df: pd.DataFrame) -> dict[str, Any]:
+def update_score(existing_score: dict[str, Any], df: pd.DataFrame, factors_by_symbol: dict[str, list[dict[str, Any]]]) -> dict[str, Any]:
     latest = df.iloc[-1]
     previous_close = clean_number(df.iloc[-2].get("Close"), None) if len(df) >= 2 else None
     latest_close = clean_number(latest.get("Close"), None)
+    symbol = str(existing_score.get("symbol", "")).upper()
 
     change = 0.0
     if previous_close and latest_close is not None:
         change = round(((latest_close - previous_close) / previous_close) * 100, 2)
 
-    technical = calculate_technical_score(latest)
+    technical = calculate_technical_score(df)
     fundamental = int(existing_score.get("fundamental", 50))
     valuation = int(existing_score.get("valuation", 50))
-    impact = int(existing_score.get("impact", 50))
-    total = round((fundamental * 0.40) + (technical * 0.25) + (valuation * 0.20) + (impact * 0.15))
+    impact = calculate_impact_score(symbol, factors_by_symbol)
+    total = round((fundamental * 0.35) + (technical * 0.30) + (valuation * 0.15) + (impact * 0.20))
 
     updated = dict(existing_score)
     updated.update(
@@ -271,9 +341,20 @@ def update_score(existing_score: dict[str, Any], df: pd.DataFrame) -> dict[str, 
             "price": latest_close,
             "change": change,
             "technical": technical,
+            "impact": impact,
             "total": total,
+            "scoreVersion": "v2-factor-impact",
+            "scoreWeights": {
+                "fundamental": 0.35,
+                "technical": 0.30,
+                "valuation": 0.15,
+                "impact": 0.20,
+            },
+            "scoreReason": build_score_reason(fundamental, technical, valuation, impact, total),
+            "keyPositive": pick_factor_title(symbol, factors_by_symbol, "Positive"),
+            "keyNegative": pick_factor_title(symbol, factors_by_symbol, "Negative"),
             "dataSource": "yfinance",
-            "yahooSymbol": f"{updated.get('symbol')}.BK",
+            "yahooSymbol": f"{symbol}.BK",
             "lastUpdatedAt": datetime.now(timezone.utc).isoformat(),
         }
     )
@@ -284,6 +365,12 @@ def main() -> int:
     stocks = read_json(DATA_DIR / "stocks.json", [])
     old_prices = read_json(DATA_DIR / "prices.json", {})
     old_scores = read_json(DATA_DIR / "scores.json", [])
+    factors = read_json(DATA_DIR / "factors.json", [])
+    factors_by_symbol: dict[str, list[dict[str, Any]]] = {}
+    for item in factors:
+        symbol = str(item.get("symbol", "")).strip().upper()
+        if symbol:
+            factors_by_symbol.setdefault(symbol, []).append(item)
     old_score_by_symbol = {item.get("symbol"): item for item in old_scores if item.get("symbol")}
 
     new_prices: dict[str, list[dict[str, Any]]] = dict(old_prices)
@@ -297,7 +384,7 @@ def main() -> int:
             print(f"Fetching {symbol}.BK ...")
             df = get_stock_frame(symbol)
             new_prices[symbol] = frame_to_price_rows(df)
-            new_scores.append(update_score(existing_score, df))
+            new_scores.append(update_score(existing_score, df, factors_by_symbol))
         except Exception as exc:  # Keep the dashboard usable if one symbol fails.
             print(f"WARNING: {symbol} failed: {exc}", file=sys.stderr)
             failures.append(symbol)

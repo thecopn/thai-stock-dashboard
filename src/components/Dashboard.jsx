@@ -4,6 +4,34 @@ import { Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YA
 import { Icon } from "../lib/icons.jsx";
 import { cn } from "../lib/utils.js";
 import { Card, ChangeText, MetricCard, ScorePill } from "./Common.jsx";
+import { TradingViewLink } from "./TradingView.jsx";
+
+function formatDisplayDate(value) {
+  if (!value) return "-";
+  const text = String(value);
+  if (/^\d{4}-\d{2}-\d{2}$/.test(text)) return text;
+
+  const date = new Date(text);
+  if (Number.isNaN(date.getTime())) return text;
+
+  return new Intl.DateTimeFormat("th-TH", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    timeZone: "Asia/Bangkok",
+  }).format(date);
+}
+
+function getLatestValue(items, field) {
+  const values = items
+    .map((item) => item?.[field])
+    .filter(Boolean)
+    .map(String)
+    .sort();
+  return values.length ? values[values.length - 1] : "-";
+}
 
 export default function Dashboard({ rows, prices, factors, onSelectStock }) {
   const [search, setSearch] = useState("");
@@ -18,16 +46,19 @@ export default function Dashboard({ rows, prices, factors, onSelectStock }) {
   const watchCount = rows.filter((s) => (s.total || 0) < 58).length;
   const avgScore = rows.length ? Math.round(rows.reduce((sum, s) => sum + (s.total || 0), 0) / rows.length) : 0;
   const marketData = prices?.[topStock?.symbol] || [];
+  const latestPriceDate = getLatestValue(rows, "date");
+  const latestUpdatedAt = getLatestValue(rows, "lastUpdatedAt");
+  const latestSource = rows.find((row) => row.lastUpdatedAt === latestUpdatedAt)?.dataSource || "JSON / GitHub Actions";
 
   return (
     <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
       <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
           <div className="inline-flex items-center gap-2 rounded-full bg-slate-100 px-3 py-1 text-sm text-slate-600">
-            <Icon name="calendar" size={15} /> ข้อมูลตัวอย่าง · GitHub Pages V1
+            <Icon name="calendar" size={15} /> Price Date: {formatDisplayDate(latestPriceDate)} · Updated: {formatDisplayDate(latestUpdatedAt)}
           </div>
           <h1 className="mt-3 text-3xl font-bold tracking-tight text-slate-950">Stock Watchlist Dashboard</h1>
-          <p className="mt-2 text-slate-600">หุ้นไทย 30 ตัวจากกลุ่ม SET50 เริ่มต้น สำหรับคัดกรองก่อนตัดสินใจ</p>
+          <p className="mt-2 text-slate-600">หุ้นไทย 30 ตัวจากกลุ่ม SET50 เริ่มต้น สำหรับคัดกรองก่อนตัดสินใจ พร้อมปุ่มเปิดกราฟ TradingView โดยตรง</p>
         </div>
         <div className="flex gap-2">
           <button className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm hover:bg-slate-50">
@@ -38,6 +69,20 @@ export default function Dashboard({ rows, prices, factors, onSelectStock }) {
           </button>
         </div>
       </div>
+
+      <Card className="border-slate-300 bg-slate-900 text-white">
+        <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+          <div>
+            <p className="text-sm font-medium text-slate-300">Data freshness</p>
+            <h2 className="mt-1 text-xl font-bold">Latest price data: {formatDisplayDate(latestPriceDate)}</h2>
+            <p className="mt-1 text-sm text-slate-300">Last workflow update: {formatDisplayDate(latestUpdatedAt)}</p>
+          </div>
+          <div className="rounded-2xl bg-white/10 px-4 py-3 text-sm">
+            <p className="font-semibold">Source</p>
+            <p className="text-slate-300">{latestSource}</p>
+          </div>
+        </div>
+      </Card>
 
       <div className="grid gap-4 md:grid-cols-4">
         <MetricCard icon="lineChart" label="Universe" value={`${rows.length} stocks`} sub="Selected from SET50 constituents" />
@@ -106,7 +151,7 @@ export default function Dashboard({ rows, prices, factors, onSelectStock }) {
           <table className="w-full min-w-[980px] border-collapse text-left text-sm">
             <thead className="bg-slate-50 text-xs uppercase tracking-wide text-slate-500">
               <tr>
-                <th className="px-4 py-3">Symbol</th><th className="px-4 py-3">Sector</th><th className="px-4 py-3 text-right">Price</th><th className="px-4 py-3">Change</th><th className="px-4 py-3 text-center">Funda</th><th className="px-4 py-3 text-center">Tech</th><th className="px-4 py-3 text-center">Value</th><th className="px-4 py-3 text-center">Impact</th><th className="px-4 py-3 text-center">Total</th><th className="px-4 py-3">Key Positive</th><th className="px-4 py-3">Key Negative</th><th className="px-4 py-3"></th>
+                <th className="px-4 py-3">Symbol</th><th className="px-4 py-3">Sector</th><th className="px-4 py-3 text-right">Price</th><th className="px-4 py-3">Change</th><th className="px-4 py-3 text-center">Funda</th><th className="px-4 py-3 text-center">Tech</th><th className="px-4 py-3 text-center">Value</th><th className="px-4 py-3 text-center">Impact</th><th className="px-4 py-3 text-center">Total</th><th className="px-4 py-3">Key Positive</th><th className="px-4 py-3">Key Negative</th><th className="px-4 py-3 text-center">TradingView</th><th className="px-4 py-3"></th>
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-100 bg-white">
@@ -123,6 +168,7 @@ export default function Dashboard({ rows, prices, factors, onSelectStock }) {
                   <td className="px-4 py-3 text-center"><ScorePill value={s.total} /></td>
                   <td className="px-4 py-3 text-slate-700">{s.keyPositive}</td>
                   <td className="px-4 py-3 text-slate-700">{s.keyNegative}</td>
+                  <td className="px-4 py-3 text-center"><TradingViewLink symbol={s.symbol} variant="compact" label="Open" /></td>
                   <td className="px-4 py-3 text-right"><button onClick={() => onSelectStock(s)} className="inline-flex items-center gap-1 rounded-lg px-2 py-1 font-medium text-slate-700 hover:bg-white hover:shadow-sm">Detail <Icon name="chevronRight" size={15} /></button></td>
                 </tr>
               ))}

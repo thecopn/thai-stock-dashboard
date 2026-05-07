@@ -7,6 +7,7 @@ export const iconPaths = {
   dollar: "M12 2v20M17 6H9.5a3.5 3.5 0 0 0 0 7H14a3.5 3.5 0 0 1 0 7H6",
   download: "M12 3v12m0 0 5-5m-5 5-5-5M5 21h14",
   fileText: "M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8ZM14 2v6h6M8 13h8M8 17h8M8 9h2",
+  externalLink: "M14 3h7v7M10 14L21 3M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5",
   filter: "M3 5h18M6 12h12M10 19h4",
   lineChart: "M3 3v18h18M7 15l4-4 3 3 5-7",
   newspaper: "M4 4h14a2 2 0 0 1 2 2v13a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2V5a1 1 0 0 1 1-1Zm4 4h6M8 12h8M8 16h5",
