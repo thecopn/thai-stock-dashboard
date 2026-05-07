@@ -1,0 +1,212 @@
+[
+  {
+    "symbol": "ADVANC",
+    "tradingViewSymbol": "SET:ADVANC",
+    "name": "Advanced Info Service",
+    "sector": "Information & Communication Technology",
+    "industry": "Telecom"
+  },
+  {
+    "symbol": "AOT",
+    "tradingViewSymbol": "SET:AOT",
+    "name": "Airports of Thailand",
+    "sector": "Transportation & Logistics",
+    "industry": "Airport"
+  },
+  {
+    "symbol": "BBL",
+    "tradingViewSymbol": "SET:BBL",
+    "name": "Bangkok Bank",
+    "sector": "Banking",
+    "industry": "Bank"
+  },
+  {
+    "symbol": "BDMS",
+    "tradingViewSymbol": "SET:BDMS",
+    "name": "Bangkok Dusit Medical Services",
+    "sector": "Health Care Services",
+    "industry": "Hospital"
+  },
+  {
+    "symbol": "BH",
+    "tradingViewSymbol": "SET:BH",
+    "name": "Bumrungrad Hospital",
+    "sector": "Health Care Services",
+    "industry": "Hospital"
+  },
+  {
+    "symbol": "CPALL",
+    "tradingViewSymbol": "SET:CPALL",
+    "name": "CP All",
+    "sector": "Commerce",
+    "industry": "Convenience Store"
+  },
+  {
+    "symbol": "CPF",
+    "tradingViewSymbol": "SET:CPF",
+    "name": "Charoen Pokphand Foods",
+    "sector": "Food & Beverage",
+    "industry": "Food"
+  },
+  {
+    "symbol": "CPN",
+    "tradingViewSymbol": "SET:CPN",
+    "name": "Central Pattana",
+    "sector": "Property Development",
+    "industry": "Retail Property"
+  },
+  {
+    "symbol": "CRC",
+    "tradingViewSymbol": "SET:CRC",
+    "name": "Central Retail Corporation",
+    "sector": "Commerce",
+    "industry": "Retail"
+  },
+  {
+    "symbol": "DELTA",
+    "tradingViewSymbol": "SET:DELTA",
+    "name": "Delta Electronics Thailand",
+    "sector": "Electronic Components",
+    "industry": "Electronics"
+  },
+  {
+    "symbol": "EGCO",
+    "tradingViewSymbol": "SET:EGCO",
+    "name": "Electricity Generating",
+    "sector": "Energy & Utilities",
+    "industry": "Power"
+  },
+  {
+    "symbol": "GPSC",
+    "tradingViewSymbol": "SET:GPSC",
+    "name": "Global Power Synergy",
+    "sector": "Energy & Utilities",
+    "industry": "Power"
+  },
+  {
+    "symbol": "GULF",
+    "tradingViewSymbol": "SET:GULF",
+    "name": "Gulf Development",
+    "sector": "Energy & Utilities",
+    "industry": "Power/Infrastructure"
+  },
+  {
+    "symbol": "HMPRO",
+    "tradingViewSymbol": "SET:HMPRO",
+    "name": "Home Product Center",
+    "sector": "Commerce",
+    "industry": "Home Improvement"
+  },
+  {
+    "symbol": "KBANK",
+    "tradingViewSymbol": "SET:KBANK",
+    "name": "Kasikornbank",
+    "sector": "Banking",
+    "industry": "Bank"
+  },
+  {
+    "symbol": "KTB",
+    "tradingViewSymbol": "SET:KTB",
+    "name": "Krung Thai Bank",
+    "sector": "Banking",
+    "industry": "Bank"
+  },
+  {
+    "symbol": "KTC",
+    "tradingViewSymbol": "SET:KTC",
+    "name": "Krungthai Card",
+    "sector": "Finance & Securities",
+    "industry": "Consumer Finance"
+  },
+  {
+    "symbol": "MINT",
+    "tradingViewSymbol": "SET:MINT",
+    "name": "Minor International",
+    "sector": "Tourism & Leisure",
+    "industry": "Hotel/Restaurant"
+  },
+  {
+    "symbol": "OR",
+    "tradingViewSymbol": "SET:OR",
+    "name": "PTT Oil and Retail Business",
+    "sector": "Energy & Utilities",
+    "industry": "Oil Retail"
+  },
+  {
+    "symbol": "PTT",
+    "tradingViewSymbol": "SET:PTT",
+    "name": "PTT",
+    "sector": "Energy & Utilities",
+    "industry": "Oil & Gas"
+  },
+  {
+    "symbol": "PTTEP",
+    "tradingViewSymbol": "SET:PTTEP",
+    "name": "PTT Exploration and Production",
+    "sector": "Energy & Utilities",
+    "industry": "Oil & Gas E&P"
+  },
+  {
+    "symbol": "RATCH",
+    "tradingViewSymbol": "SET:RATCH",
+    "name": "Ratch Group",
+    "sector": "Energy & Utilities",
+    "industry": "Power"
+  },
+  {
+    "symbol": "SCB",
+    "tradingViewSymbol": "SET:SCB",
+    "name": "SCB X",
+    "sector": "Banking",
+    "industry": "Bank/Holding"
+  },
+  {
+    "symbol": "SCC",
+    "tradingViewSymbol": "SET:SCC",
+    "name": "Siam Cement",
+    "sector": "Construction Materials",
+    "industry": "Materials"
+  },
+  {
+    "symbol": "SCGP",
+    "tradingViewSymbol": "SET:SCGP",
+    "name": "SCG Packaging",
+    "sector": "Packaging",
+    "industry": "Packaging"
+  },
+  {
+    "symbol": "TISCO",
+    "tradingViewSymbol": "SET:TISCO",
+    "name": "TISCO Financial Group",
+    "sector": "Banking",
+    "industry": "Bank"
+  },
+  {
+    "symbol": "TOP",
+    "tradingViewSymbol": "SET:TOP",
+    "name": "Thai Oil",
+    "sector": "Energy & Utilities",
+    "industry": "Refinery"
+  },
+  {
+    "symbol": "TRUE",
+    "tradingViewSymbol": "SET:TRUE",
+    "name": "True Corporation",
+    "sector": "Information & Communication Technology",
+    "industry": "Telecom"
+  },
+  {
+    "symbol": "TU",
+    "tradingViewSymbol": "SET:TU",
+    "name": "Thai Union Group",
+    "sector": "Food & Beverage",
+    "industry": "Food Export"
+  },
+  {
+    "symbol": "WHA",
+    "tradingViewSymbol": "SET:WHA",
+    "name": "WHA Corporation",
+    "sector": "Property Development",
+    "industry": "Industrial Estate/Logistics"
+  }
+]

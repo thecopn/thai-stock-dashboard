@@ -1,0 +1,602 @@
+[
+  {
+    "symbol": "ADVANC",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "ARPU และ 5G โต",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "ADVANC",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "การแข่งขันราคา",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "AOT",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "นักท่องเที่ยวฟื้นตัว",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "AOT",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "Valuation ยังสูง",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "BBL",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "ฐานเงินทุนแข็งแรง",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "BBL",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "สินเชื่อโตช้า",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "BDMS",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "Medical tourism",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "BDMS",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "ราคาไม่ถูก",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "BH",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "ผู้ป่วยต่างชาติฟื้น",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "BH",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "ความคาดหวังสูง",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "CPALL",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "กำลังซื้อในประเทศฟื้น",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "CPALL",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "ต้นทุนค่าแรงสูงขึ้น",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "CPF",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "ต้นทุนอาหารสัตว์ผ่อนคลาย",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "CPF",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "ราคาสินค้าเกษตรผันผวน",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "CPN",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "Traffic ศูนย์การค้าฟื้น",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "CPN",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "ต้นทุนการเงินสูง",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "CRC",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "ยอดขายสาขาเดิมดีขึ้น",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "CRC",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "กำลังซื้อเปราะบาง",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "DELTA",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "กระแส EV/Data Center",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "DELTA",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "Valuation แพงมาก",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "EGCO",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "รายได้โรงไฟฟ้าสม่ำเสมอ",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "EGCO",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "Bond yield สูงกด valuation",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "GPSC",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "ต้นทุนก๊าซลดลง",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "GPSC",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "ค่าเงินบาทและดอกเบี้ย",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "GULF",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "โครงการใหม่ทยอย COD",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "GULF",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "หนี้จากการลงทุน",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "HMPRO",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "ยอดขายบ้านและซ่อมแซม",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "HMPRO",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "กำลังซื้อชะลอ",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "KBANK",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "P/BV ต่ำกว่าค่าเฉลี่ย",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "KBANK",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "NPL ต้องติดตาม",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "KTB",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "รายได้ดอกเบี้ยดี",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "KTB",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "คุณภาพสินทรัพย์",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "KTC",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "คุณภาพลูกหนี้คุมได้",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "KTC",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "หนี้ครัวเรือนสูง",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "MINT",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "ท่องเที่ยวและโรงแรมฟื้น",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "MINT",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "ต้นทุนดอกเบี้ยสูง",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "OR",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "เครือข่ายค้าปลีกใหญ่",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "OR",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "Margin น้ำมันผันผวน",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "PTT",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "ปันผลสม่ำเสมอ",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "PTT",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "ราคาพลังงานผันผวน",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "PTTEP",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "ราคาน้ำมันหนุนกำไร",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "PTTEP",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "ราคาน้ำมันปรับลง",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "RATCH",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "กระแสเงินสดมั่นคง",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "RATCH",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "FX และดอกเบี้ย",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "SCB",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "Digital business optionality",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "SCB",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "NPL และเศรษฐกิจ",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "SCC",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "ธุรกิจวัสดุก่อสร้างฟื้น",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "SCC",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "ปิโตรเคมีอ่อนตัว",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "SCGP",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "Demand บรรจุภัณฑ์ฟื้น",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "SCGP",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "ต้นทุนวัตถุดิบ",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "TISCO",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "Dividend yield เด่น",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "TISCO",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "สินเชื่อโตจำกัด",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "TOP",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "ค่าการกลั่นฟื้น",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "TOP",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "Crack spread ผันผวน",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "TRUE",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "Synergy หลังควบรวม",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "TRUE",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "ภาระหนี้สูง",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "TU",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "ส่งออกอาหารทะเล",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "TU",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "ค่าเงินและต้นทุนวัตถุดิบ",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "WHA",
+    "date": "2026-05-07",
+    "type": "Positive",
+    "level": "Medium",
+    "title": "FDI และนิคมอุตสาหกรรม",
+    "detail": "ปัจจัยบวกเริ่มต้นสำหรับ watchlist V1 ควรตรวจสอบแหล่งข้อมูลก่อนใช้ตัดสินใจ",
+    "sourceUrl": "",
+    "status": "Active"
+  },
+  {
+    "symbol": "WHA",
+    "date": "2026-05-07",
+    "type": "Negative",
+    "level": "Medium",
+    "title": "ยอดขายที่ดินไม่สม่ำเสมอ",
+    "detail": "ปัจจัยเสี่ยงเริ่มต้นสำหรับ watchlist V1 ควรติดตามข่าวและงบล่าสุดประกอบ",
+    "sourceUrl": "",
+    "status": "Active"
+  }
+]

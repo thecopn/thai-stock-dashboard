@@ -1,0 +1,962 @@
+{
+  "ADVANC": [
+    {
+      "period": "2023Q1",
+      "revenue": 38316,
+      "profit": 1245
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 41583,
+      "profit": 1277
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 22486,
+      "profit": 5453
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 18223,
+      "profit": 4621
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 47848,
+      "profit": 6224
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 52459,
+      "profit": 7574
+    }
+  ],
+  "AOT": [
+    {
+      "period": "2023Q1",
+      "revenue": 35310,
+      "profit": 7101
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 49714,
+      "profit": 3088
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 68791,
+      "profit": 1945
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 36887,
+      "profit": 7460
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 20639,
+      "profit": 5503
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 13901,
+      "profit": 7448
+    }
+  ],
+  "BBL": [
+    {
+      "period": "2023Q1",
+      "revenue": 28061,
+      "profit": 5614
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 9775,
+      "profit": 4409
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 19251,
+      "profit": 1937
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 13362,
+      "profit": 7553
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 19054,
+      "profit": 3379
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 39930,
+      "profit": 9317
+    }
+  ],
+  "BDMS": [
+    {
+      "period": "2023Q1",
+      "revenue": 17482,
+      "profit": 2830
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 16731,
+      "profit": 4963
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 46199,
+      "profit": 3549
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 17720,
+      "profit": 8317
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 76516,
+      "profit": 6964
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 65744,
+      "profit": 5501
+    }
+  ],
+  "BH": [
+    {
+      "period": "2023Q1",
+      "revenue": 57345,
+      "profit": 5219
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 12473,
+      "profit": 2480
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 31950,
+      "profit": 6075
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 72083,
+      "profit": 6159
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 43191,
+      "profit": 2215
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 47117,
+      "profit": 10296
+    }
+  ],
+  "CPALL": [
+    {
+      "period": "2023Q1",
+      "revenue": 21578,
+      "profit": 3440
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 17938,
+      "profit": 6767
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 41488,
+      "profit": 7232
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 31093,
+      "profit": 2974
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 66806,
+      "profit": 9867
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 74095,
+      "profit": 8716
+    }
+  ],
+  "CPF": [
+    {
+      "period": "2023Q1",
+      "revenue": 32444,
+      "profit": 3232
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 35770,
+      "profit": 8388
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 46226,
+      "profit": 1015
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 69053,
+      "profit": 3990
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 55019,
+      "profit": 8545
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 19873,
+      "profit": 4875
+    }
+  ],
+  "CPN": [
+    {
+      "period": "2023Q1",
+      "revenue": 15601,
+      "profit": 6751
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 63887,
+      "profit": 5895
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 30375,
+      "profit": 5389
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 18079,
+      "profit": 1220
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 77962,
+      "profit": 6917
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 49967,
+      "profit": 9889
+    }
+  ],
+  "CRC": [
+    {
+      "period": "2023Q1",
+      "revenue": 53665,
+      "profit": 1741
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 17079,
+      "profit": 4780
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 62241,
+      "profit": 7212
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 49360,
+      "profit": 7619
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 20486,
+      "profit": 2446
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 56813,
+      "profit": 2407
+    }
+  ],
+  "DELTA": [
+    {
+      "period": "2023Q1",
+      "revenue": 39519,
+      "profit": 2236
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 24161,
+      "profit": 4762
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 58249,
+      "profit": 5062
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 25721,
+      "profit": 5495
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 71318,
+      "profit": 9365
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 79286,
+      "profit": 9513
+    }
+  ],
+  "EGCO": [
+    {
+      "period": "2023Q1",
+      "revenue": 19419,
+      "profit": 7658
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 31002,
+      "profit": 4603
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 69382,
+      "profit": 7660
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 20076,
+      "profit": 4725
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 46092,
+      "profit": 4184
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 25485,
+      "profit": 4230
+    }
+  ],
+  "GPSC": [
+    {
+      "period": "2023Q1",
+      "revenue": 14737,
+      "profit": 3840
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 59995,
+      "profit": 7124
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 24775,
+      "profit": 2195
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 69706,
+      "profit": 5893
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 59029,
+      "profit": 1987
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 15257,
+      "profit": 7631
+    }
+  ],
+  "GULF": [
+    {
+      "period": "2023Q1",
+      "revenue": 20399,
+      "profit": 1588
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 17622,
+      "profit": 1283
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 21308,
+      "profit": 3496
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 29478,
+      "profit": 7480
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 30297,
+      "profit": 5601
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 24165,
+      "profit": 4492
+    }
+  ],
+  "HMPRO": [
+    {
+      "period": "2023Q1",
+      "revenue": 25821,
+      "profit": 6792
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 48430,
+      "profit": 5733
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 33687,
+      "profit": 3780
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 13062,
+      "profit": 2190
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 14951,
+      "profit": 7720
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 29914,
+      "profit": 2802
+    }
+  ],
+  "KBANK": [
+    {
+      "period": "2023Q1",
+      "revenue": 24096,
+      "profit": 3367
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 8560,
+      "profit": 3800
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 37953,
+      "profit": 5022
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 22664,
+      "profit": 5340
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 10347,
+      "profit": 3525
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 17642,
+      "profit": 4976
+    }
+  ],
+  "KTB": [
+    {
+      "period": "2023Q1",
+      "revenue": 51435,
+      "profit": 7222
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 43944,
+      "profit": 6477
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 58545,
+      "profit": 2114
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 43806,
+      "profit": 5337
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 68446,
+      "profit": 8281
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 72154,
+      "profit": 6673
+    }
+  ],
+  "KTC": [
+    {
+      "period": "2023Q1",
+      "revenue": 46910,
+      "profit": 4421
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 38739,
+      "profit": 5911
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 13029,
+      "profit": 6894
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 26019,
+      "profit": 1725
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 28589,
+      "profit": 7618
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 26186,
+      "profit": 8106
+    }
+  ],
+  "MINT": [
+    {
+      "period": "2023Q1",
+      "revenue": 21976,
+      "profit": 5638
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 47608,
+      "profit": 6035
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 26742,
+      "profit": 5132
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 39935,
+      "profit": 5017
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 18295,
+      "profit": 9064
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 25745,
+      "profit": 10299
+    }
+  ],
+  "OR": [
+    {
+      "period": "2023Q1",
+      "revenue": 13859,
+      "profit": 3429
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 36631,
+      "profit": 7559
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 33039,
+      "profit": 2273
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 71722,
+      "profit": 6825
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 38379,
+      "profit": 7599
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 41797,
+      "profit": 4760
+    }
+  ],
+  "PTT": [
+    {
+      "period": "2023Q1",
+      "revenue": 22593,
+      "profit": 1172
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 45902,
+      "profit": 5726
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 18084,
+      "profit": 8768
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 38074,
+      "profit": 3751
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 64123,
+      "profit": 8109
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 42653,
+      "profit": 1567
+    }
+  ],
+  "PTTEP": [
+    {
+      "period": "2023Q1",
+      "revenue": 22651,
+      "profit": 2641
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 50239,
+      "profit": 5861
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 33779,
+      "profit": 2909
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 41148,
+      "profit": 6719
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 18382,
+      "profit": 6860
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 16563,
+      "profit": 5906
+    }
+  ],
+  "RATCH": [
+    {
+      "period": "2023Q1",
+      "revenue": 35257,
+      "profit": 3513
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 27608,
+      "profit": 1372
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 25928,
+      "profit": 8741
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 17745,
+      "profit": 5329
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 54074,
+      "profit": 8793
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 26981,
+      "profit": 3793
+    }
+  ],
+  "SCB": [
+    {
+      "period": "2023Q1",
+      "revenue": 13670,
+      "profit": 1912
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 38014,
+      "profit": 6084
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 66431,
+      "profit": 6774
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 51901,
+      "profit": 7524
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 42013,
+      "profit": 6053
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 13926,
+      "profit": 8497
+    }
+  ],
+  "SCC": [
+    {
+      "period": "2023Q1",
+      "revenue": 59811,
+      "profit": 2806
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 26374,
+      "profit": 7280
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 23784,
+      "profit": 5210
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 45329,
+      "profit": 1346
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 38827,
+      "profit": 6917
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 15093,
+      "profit": 3086
+    }
+  ],
+  "SCGP": [
+    {
+      "period": "2023Q1",
+      "revenue": 18422,
+      "profit": 6314
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 19457,
+      "profit": 4435
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 25166,
+      "profit": 8115
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 16640,
+      "profit": 6338
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 52707,
+      "profit": 9089
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 46894,
+      "profit": 9676
+    }
+  ],
+  "TISCO": [
+    {
+      "period": "2023Q1",
+      "revenue": 56666,
+      "profit": 6173
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 10302,
+      "profit": 5950
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 32096,
+      "profit": 3991
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 31226,
+      "profit": 2522
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 10201,
+      "profit": 3662
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 37009,
+      "profit": 10091
+    }
+  ],
+  "TOP": [
+    {
+      "period": "2023Q1",
+      "revenue": 40521,
+      "profit": 3714
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 29720,
+      "profit": 4427
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 58004,
+      "profit": 1496
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 22269,
+      "profit": 1628
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 52393,
+      "profit": 4394
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 35788,
+      "profit": 10075
+    }
+  ],
+  "TRUE": [
+    {
+      "period": "2023Q1",
+      "revenue": 14901,
+      "profit": 4375
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 8992,
+      "profit": 7976
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 27502,
+      "profit": 6537
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 19411,
+      "profit": 3084
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 70287,
+      "profit": 5255
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 69004,
+      "profit": 6781
+    }
+  ],
+  "TU": [
+    {
+      "period": "2023Q1",
+      "revenue": 29676,
+      "profit": 5266
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 46587,
+      "profit": 6585
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 60666,
+      "profit": 6315
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 17436,
+      "profit": 8163
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 30565,
+      "profit": 6189
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 38600,
+      "profit": 8090
+    }
+  ],
+  "WHA": [
+    {
+      "period": "2023Q1",
+      "revenue": 20018,
+      "profit": 4028
+    },
+    {
+      "period": "2023Q2",
+      "revenue": 29624,
+      "profit": 7564
+    },
+    {
+      "period": "2023Q3",
+      "revenue": 23206,
+      "profit": 1403
+    },
+    {
+      "period": "2023Q4",
+      "revenue": 48832,
+      "profit": 8055
+    },
+    {
+      "period": "2024Q1",
+      "revenue": 23591,
+      "profit": 1861
+    },
+    {
+      "period": "2024Q2",
+      "revenue": 48938,
+      "profit": 2935
+    }
+  ]
+}
