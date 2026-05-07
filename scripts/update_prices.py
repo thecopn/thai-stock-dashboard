@@ -11,6 +11,9 @@ Data source:
 Notes:
 - This is for a personal research dashboard, not real-time trading.
 - If a ticker fails to download, the script keeps existing JSON data for that ticker.
+- Some Thai tickers can have adjusted/split-like historical values from Yahoo history.
+  This script compares the latest historical close with Yahoo quote price and corrects
+  obvious mismatches before writing JSON.
 """
 
 from __future__ import annotations
@@ -26,8 +29,10 @@ import pandas as pd
 import yfinance as yf
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "public" / "data"
-PRICE_HISTORY_PERIOD = "18mo"
+PRICE_HISTORY_PERIOD = "2y"
 PRICE_INTERVAL = "1d"
+STALE_DAYS_LIMIT = 14
+SCALE_MISMATCH_THRESHOLD = 0.15  # 15% mismatch between history close and quote price
 
 
 def read_json(path: Path, fallback: Any) -> Any:
@@ -100,31 +105,121 @@ def calculate_technical_score(latest: pd.Series) -> int:
     return max(0, min(100, round(score)))
 
 
-def get_stock_frame(symbol: str) -> pd.DataFrame:
-    yahoo_symbol = f"{symbol}.BK"
-    df = yf.download(
-        yahoo_symbol,
-        period=PRICE_HISTORY_PERIOD,
-        interval=PRICE_INTERVAL,
-        auto_adjust=False,
-        progress=False,
-        threads=False,
-    )
+def get_quote_price(ticker: yf.Ticker) -> float | None:
+    """Get latest quote price from Yahoo metadata/fast_info.
 
+    This is used to detect history data that is adjusted or stale for some .BK symbols.
+    """
+    candidates: list[Any] = []
+
+    try:
+        fast = ticker.fast_info
+        for key in ("last_price", "regular_market_price", "previous_close", "regular_market_previous_close"):
+            try:
+                candidates.append(fast.get(key))
+            except Exception:
+                pass
+    except Exception:
+        pass
+
+    try:
+        info = ticker.get_info()
+        for key in ("regularMarketPrice", "currentPrice", "previousClose", "regularMarketPreviousClose"):
+            candidates.append(info.get(key))
+    except Exception:
+        pass
+
+    for value in candidates:
+        number = clean_number(value, None)
+        if number is not None and number > 0:
+            return number
+    return None
+
+
+def normalize_history_frame(df: pd.DataFrame, yahoo_symbol: str) -> pd.DataFrame:
     if df.empty:
         raise RuntimeError(f"No price data returned for {yahoo_symbol}")
 
     if isinstance(df.columns, pd.MultiIndex):
-        df.columns = df.columns.get_level_values(0)
+        # yfinance may return either (Price, Ticker) or (Ticker, Price). Keep the OHLCV level.
+        level0 = set(str(x) for x in df.columns.get_level_values(0))
+        level1 = set(str(x) for x in df.columns.get_level_values(1))
+        ohlcv = {"Open", "High", "Low", "Close", "Volume"}
+        if ohlcv.intersection(level0):
+            df.columns = df.columns.get_level_values(0)
+        elif ohlcv.intersection(level1):
+            df.columns = df.columns.get_level_values(1)
+        else:
+            df.columns = df.columns.get_level_values(0)
 
     required = ["Open", "High", "Low", "Close", "Volume"]
     missing = [col for col in required if col not in df.columns]
     if missing:
         raise RuntimeError(f"Missing columns for {yahoo_symbol}: {missing}")
 
-    df = df[required].dropna(subset=["Close"])
+    df = df[required].copy()
+    df = df.dropna(subset=["Close"])
+    df = df[df["Close"] > 0]
+    df = df.sort_index()
+
     if df.empty:
         raise RuntimeError(f"No usable close prices for {yahoo_symbol}")
+
+    return df
+
+
+def get_stock_frame(symbol: str) -> pd.DataFrame:
+    yahoo_symbol = f"{symbol}.BK"
+    ticker = yf.Ticker(yahoo_symbol)
+
+    df = ticker.history(
+        period=PRICE_HISTORY_PERIOD,
+        interval=PRICE_INTERVAL,
+        auto_adjust=False,
+        actions=False,
+    )
+    df = normalize_history_frame(df, yahoo_symbol)
+
+    quote_price = get_quote_price(ticker)
+    history_close = clean_number(df.iloc[-1].get("Close"), None)
+    latest_date = pd.Timestamp(df.index[-1]).strftime("%Y-%m-%d")
+
+    if history_close is None:
+        raise RuntimeError(f"Latest close is missing for {yahoo_symbol}")
+
+    if quote_price is not None:
+        mismatch = abs((quote_price - history_close) / history_close)
+        if mismatch >= SCALE_MISMATCH_THRESHOLD:
+            ratio = quote_price / history_close
+            print(
+                f"{symbol}: WARNING history close {history_close:.2f} differs from quote {quote_price:.2f}. "
+                f"Scaling OHLC by {ratio:.6f}.",
+            )
+            for col in ["Open", "High", "Low", "Close"]:
+                df[col] = df[col] * ratio
+        else:
+            # Keep the latest displayed price aligned with Yahoo quote metadata.
+            # This helps when Yahoo history is one delayed close behind the quote endpoint.
+            df.loc[df.index[-1], "Close"] = quote_price
+            df.loc[df.index[-1], "High"] = max(float(df.iloc[-1]["High"]), quote_price)
+            df.loc[df.index[-1], "Low"] = min(float(df.iloc[-1]["Low"]), quote_price)
+
+    latest_close_after_fix = clean_number(df.iloc[-1].get("Close"), None)
+    print(
+        f"{symbol}: latest history date={latest_date}, "
+        f"history close={history_close:.2f}, "
+        f"quote={quote_price if quote_price is not None else 'N/A'}, "
+        f"saved close={latest_close_after_fix:.2f}"
+    )
+
+    latest_ts = pd.Timestamp(df.index[-1])
+    if latest_ts.tzinfo is not None:
+        today = pd.Timestamp.now(tz=latest_ts.tz).normalize()
+    else:
+        today = pd.Timestamp.now().normalize()
+    days_old = (today - latest_ts.normalize()).days
+    if days_old > STALE_DAYS_LIMIT:
+        raise RuntimeError(f"Stale data for {yahoo_symbol}: latest date is {latest_date}")
 
     df["MA20"] = df["Close"].rolling(20, min_periods=1).mean()
     df["MA50"] = df["Close"].rolling(50, min_periods=1).mean()
@@ -177,6 +272,8 @@ def update_score(existing_score: dict[str, Any], df: pd.DataFrame) -> dict[str, 
             "change": change,
             "technical": technical,
             "total": total,
+            "dataSource": "yfinance",
+            "yahooSymbol": f"{updated.get('symbol')}.BK",
             "lastUpdatedAt": datetime.now(timezone.utc).isoformat(),
         }
     )
@@ -205,9 +302,11 @@ def main() -> int:
             print(f"WARNING: {symbol} failed: {exc}", file=sys.stderr)
             failures.append(symbol)
             if existing_score:
-                new_scores.append(existing_score)
+                failed_score = dict(existing_score)
+                failed_score["dataSource"] = "previous-data"
+                failed_score["lastUpdateError"] = str(exc)
+                new_scores.append(failed_score)
 
-    # Preserve score order based on stocks.json.
     new_score_by_symbol = {item.get("symbol"): item for item in new_scores if item.get("symbol")}
     ordered_scores = [new_score_by_symbol[s["symbol"]] for s in stocks if s["symbol"] in new_score_by_symbol]
 
